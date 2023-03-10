@@ -1,0 +1,88 @@
+section{
+    background-color: #f0f2f5;
+    height: 750px;
+}
+.fbook{
+    position: relative;
+    top: 100px;
+
+}
+#smg{
+    margin-left: 277px;
+    float: left;
+}
+.p1{
+    font-size: 44px;
+    margin-top: -22px;
+    width: 666px;
+    margin-left: 33px;
+}
+#login{
+    float: right;
+    margin-right: 277px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    height: 410px;
+    width: 460px;
+}
+.r{
+    font-size: 22px;
+    height: 50px;
+    width:430px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+hr{
+    width:90%;
+    position: relative;
+    top: -25px;
+}
+#hint{
+    margin-top: -5px;
+    color: blue;
+}
+#sign_in{
+    color: white;
+    background-color: blue;
+}
+#create_account{
+    color: white;
+    background-color: green;
+    width: 200px;
+}
+#just{
+    margin-left: -30px;
+    font-size: 18px;
+    width: 430px;
+    padding: 50px;
+}
+input.r{
+    border: 2px solid honeydew;
+    width: 410px;
+    position: relative;
+    top:10px;
+}
+
+input:hover{
+    border-color: blue;
+}
+input:focus{
+    outline: none;
+}
+
+#list{
+    margin-left: 277px;
+    font-size: 18px;
+}
+#lan{
+    display: inline-flex;
+}
+#hr{
+    width:70%;
+    margin-left: 0.1px;
+}
+#links{
+    width: 1300px;
+}
