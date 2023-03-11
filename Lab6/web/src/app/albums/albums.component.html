@@ -1,8 +1,0 @@
-<h1>Albums Page</h1>
-
-<div *ngFor="let album of albums" class="main-items">
-    <a routerLink="{{ album.id }}">{{ album.id }} || {{ album.title }}</a>
-    <button (click)="deleteAlbum(album)" class="btn btn-primary">
-        <p>X</p>
-    </button>
-</div>

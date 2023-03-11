@@ -1,9 +1,0 @@
-<button (click)="goBack()" class="btn btn-primary">Back</button>
-<h1>Photos Page</h1>
-
-<h2>{{ album.title }}</h2>
-
-<div *ngFor="let photo of photos" class="items">
-    <img alt="" src="{{ photo.thumbnailUrl }}"/>
-    <h3>{{ photo.title }}</h3>
-</div>
